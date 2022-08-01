@@ -1,7 +1,7 @@
   
 const Discord = require('discord.js')
-const radio = require("../../Botconfig/radio2.json")
-const radio2 = require("../../Botconfig/radio.json")
+const radio = require("../../botConfig/radio2.json")
+const radio2 = require("../../botConfig/radio.json")
 const pagination = require("discord.js-pagination")
 
 module.exports = {

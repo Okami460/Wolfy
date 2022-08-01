@@ -26,6 +26,7 @@ module.exports = {
                 moderation: "🔧 | ",
                 music: "🎵 | ",
                 owner: "🔰 | ",
+                recherche: "🌐 |",
                 utility: "🔩 | "
             }
 
