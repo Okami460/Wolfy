@@ -1,0 +1,31 @@
+{
+  "token": "OTQxMzUzMDUyMTE0MzkxMDgz.Gwv9Ji.J9CfIX_t-sJWk2rwl8FS38iGTQLbOLPPNBNY-A",
+  "prefix": "w!",
+  "mongoDBURl": "mongodb://Okami:Nathdel45@wolfy-shard-00-00.xtym0.mongodb.net:27017,wolfy-shard-00-01.xtym0.mongodb.net:27017,wolfy-shard-00-02.xtym0.mongodb.net:27017/WolfyV13?replicaSet=atlas-ckpnnh-shard-0&ssl=true&authSource=admin",
+  "spotify_api": {
+    "enabled": false,
+    "_COMMENT_": "",
+    "clientSecret": "0ed073c63a854d308f457d4aaaa23dbf",
+    "clientId": "543e71f859ea4fc3b252d7af40ceef73"
+  },
+  "edit": true,
+  "disableManualCmds": true,
+  "tiles": [
+    "<:0_:891754393895067718>",
+    "<:2_:891754431773823006>",
+    "<:4_:891754457111597107>",
+    "<:8_:891754478515142699>",
+    "<:16:891754501441204224>",
+    "<:32:891754518038085752>",
+    "<:64:891754553463165019>",
+    "<:128:891754566012522556>",
+    "<:256:891754581841817630>",
+    "<:512:891754597436248084>",
+    "<:1024:891754608727322674>",
+    "<:2048:891754621746417665>"
+  ],
+  "left": "◀",
+  "down": "🔽",
+  "up": "🔼",
+  "right": "▶"
+}

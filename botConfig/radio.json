@@ -1,0 +1,489 @@
+{
+    "france": [{
+        "name": "skyrock"
+    }, {
+        "name": "nrj"
+    }, {
+        "name": "vibration"
+    }, {
+        "name": "rfi"
+    }, {
+        "name": "frinter"
+    }, {
+        "name": "frmusic"
+    }, {
+        "name": "frculture"
+    }, {
+        "name": "fip"
+    }, {
+        "name": "frbleu"
+    }, {
+        "name": "frinfo"
+    }, {
+        "name": "mouv"
+    }, {
+        "name": "rtl"
+    }, {
+        "name": "rtl2"
+    }, {
+        "name": "funradio"
+    }, {
+        "name": "europe1"
+    }, {
+        "name": "rfm"
+    }, {
+        "name": "virgiradio"
+    }, {
+        "name": "rmc"
+    }, {
+        "name": "rire&chansons"
+    }, {
+        "name": "cheriefm"
+    }, {
+        "name": "nostalgie"
+    }, {
+        "name": "bfm"
+    }],
+
+    "japon": [{
+        "name": "airtesshi"
+    },
+    {
+        "name": "bigbaradio"
+    },
+    {
+        "name": "chiru"
+    },
+    {
+        "name": "fmkyoto"
+    },
+    {
+        "name": "fmkurashiki"
+    },
+    {
+        "name": "fmmaizuru"
+    },
+    {
+        "name": "fmpoco"
+    },
+    {
+        "name": "fmtaro"
+    },
+    {
+        "name": "fmyamato"
+    },
+    {
+        "name": "happyfm"
+    },
+    {
+        "name": "harborradio"
+    },
+    {
+        "name": "hassurufm"
+    },
+    {
+        "name": "j1gold"
+    },
+    {
+        "name": "j1hits"
+    },
+    {
+        "name": "j1extra"
+    },
+    {
+        "name": "jpoppowerplay"
+    },
+    {
+        "name": "jpoppowerplaykawaii"
+    },
+    {
+        "name": "jpopsakura"
+    },
+    {
+        "name": "japanimradio"
+    },
+    {
+        "name": "kamakurafm"
+    },
+    {
+        "name": "kitakata"
+    },
+    {
+        "name": "naradotfm"
+    },
+    {
+        "name": "supertokyofm"
+    },
+    {
+        "name": "asiandreamradio"
+    }
+
+    ],
+
+    "suisse": [{
+        "name": "buureradio"
+    }, {
+        "name": "swissmelody"
+    },{
+        "name": "lfm"
+    }, {
+        "name": "radiochablais"
+    }, {
+        "name": "radiolac"
+    }, {
+        "name": "rougefm"
+    }, {
+        "name": "rsrla1ere"
+    },{
+        "name": "rsrescpace2"
+    }, {
+        "name": "rsrcouleur3"
+    }, {
+        "name": "rsroptionmusique"
+    },{
+        "name": "voxinox"
+    }, {
+        "name": "srf1"
+    },{
+        "name": "srf2kultur"
+    },{
+        "name": "srf3"
+    },{
+        "name": "srf4news"
+    },{
+        "name": "srfmusikwelle"
+    },{
+        "name": "srfvirus"
+    }],
+
+    "angleterre": [{
+        "name": "radionational"
+    },{
+        "name": "aussiesbaradio"
+    },{
+        "name": "bbc1"
+    },{
+        "name": "bbc2"
+    },{
+        "name": "bbc3"
+    },{
+        "name": "bbc4"
+    },{
+        "name": "bbc5"
+    },{
+        "name": "bbcscotland"
+    },{
+        "name": "bbculster"
+    },{
+        "name": "bbcwales"
+    },{
+        "name": "bbcasiannetwork"
+    },{
+        "name": "bbcworldservice"
+    },{
+        "name": "cbcradioonetoronto"
+    },{
+        "name": "cknw"
+    },{
+        "name": "hearthfm"
+    },{
+        "name": "lbclondon"
+    },{
+        "name": "newstalk1010"
+    },{
+        "name": "rnznational"
+    },{
+        "name": "talkradio"
+    }],
+
+
+
+    "espagne": [{
+        "name": "rne1"
+    }, {
+        "name": "rne2"
+    }, {
+        "name": "rne3"
+    }, {
+        "name": "rne4"
+    }, {
+        "name": "cadenacope"
+    }, {
+        "name": "cadenaser"
+    }, {
+        "name": "ondacero"
+    }, {
+        "name": "los40argentina"
+    }, {
+        "name": "radio26"
+    }, {
+        "name": "radiocontinental"
+    },{
+        "name": "fmcordoba"
+    }, {
+        "name": "nacionalfolklorica"
+    }, {
+        "name": "radioranchito"
+    }, {
+        "name": "imerlabgrande"
+    }, {
+        "name": "ucvradio"
+    }, {
+        "name": "radiohabana"
+    }],
+
+
+    "allemagne": [{
+        "name": "b5aktuell"
+    }, {
+        "name": "bayern2nord"
+    }, {
+        "name": "brheimat"
+    }, {
+        "name": "derbarde"
+    }, {
+        "name": "dunklewelten"
+    }, {
+        "name": "fantasyradio"
+    }, {
+        "name": "mdr1radiosachsen"
+    }, {
+        "name": "medievalfantasy"
+    }, {
+        "name": "narrenwut"
+    }, {
+        "name": "ndr1wellenord"
+    }, {
+        "name": "ndrinfo"
+    }, {
+        "name": "rabenwind"
+    }, {
+        "name": "radio1nurfurewachsen"
+    }, {
+        "name": "radioblass"
+    }, {
+        "name": "radiocharivari"
+    }, {
+        "name": "radiodreyerckland"
+    }, {
+        "name": "radiohamburg"
+    }, {
+        "name": "radioheimelodie"
+    }, {
+        "name": "radiolegende"
+    }, {
+        "name": "radiou1tirol"
+    }, {
+        "name": "deutchlandfunk"
+    }, {
+        "name": "swr4badenwurttemberg"
+    }, {
+        "name": "radiomelodydab9d"
+    }],
+
+
+    "italie": [{
+        "name": "lolliradio"
+    }, {
+        "name": "rairadio1"
+    }, {
+        "name": "rairadio2"
+    }, {
+        "name": "rairadio3"
+    }, {
+        "name": "rairadio4"
+    }, {
+        "name": "rairadiokids"
+    },{
+        "name": "rairadiolive"
+    }, {
+        "name": "rairadiotutta"
+    }, {
+        "name": "raigrparlamento"
+    }, {
+        "name": "raiisoradio"
+    }, {
+        "name": "radiosicilia"
+    }],
+
+
+    "portugal": [{
+        
+        "name": "alfamais"
+    }, {
+        "name": "alfapop"
+    }, {
+        "name": "alfaradio"
+    }, {
+        "name": "amaliafm"
+    }, {
+        "name": "radioamor"
+    }, {
+        "name": "radiofestival"
+    }, {
+        "name": "radiogrenal"
+    }, {
+        "name": "radiojbfm"
+    }, {
+        "name": "radioondaviva"
+    }, {
+        "name": "radioprata"
+    }, {
+        "name": "radiosantiago"
+    }, {
+        "name": "radiobrasilandia"
+    }, {
+        "name": "radiotocaadancar"
+    }, {
+        "name": "radiovaldevez"
+    }, {
+        "name": "rtnantena1"
+    }, {
+        "name": "rtnantena1fado"
+    }, {
+        "name": "rtnantena1vida"
+    }, {
+        "name": "rtpantena2"
+    }, {
+        "name": "rtpantena3"
+    }, {
+        "name":  "rtpinternacional"
+    }, {
+        "name": "rtpradiozigzag"
+    }, {
+        "name": "superradiotupi"
+    }],
+
+    "russie": [{
+        "name": "bardssong"
+    }, {
+        "name": "russianfolk"
+    }, {
+        "name": "ussr"
+    }, {
+        "name": "avtoradio"
+    }, {
+        "name": "echomoskva"
+    }, {
+        "name": "nasheradio"
+    }, {
+        "name": "radioborneo"
+    }, {
+        "name": "radiodacha"
+    },{
+        "name": "radioelhi"
+    }, {
+        "name": "radioelhi"
+    }, {
+        "name": "radioshanson"
+    }, {
+        "name": "radiomayak"
+    }, {
+        "name": "radioobserver"
+    }, {
+        "name": "radiopik"
+    }, {
+        "name": "radiorussia"
+    }, {
+        "name": "radiorusskij"
+    }, {
+        "name": "radiostalingrad"
+    }, {
+        "name": "radiosvoboda"
+    }, {
+        "name": "radiozvezda"
+    }, {
+        "name": "russkoemoscow"
+    }, {
+        "name": "russkoetallinestonia"
+    }, {
+        "name": "russiansongs"
+    }, {
+        "name": "vestiefm"
+    }],
+
+    "belgique": [{
+        "name": "classque21"
+    }, {
+        "name": "la1ere"
+    }, {
+        "name": "purefm"
+    }, {
+        "name": "vivacitebruxelle"
+    }, {
+        "name": "vivacitemons"
+    }, {
+        "name": "vivacitecharleroi"
+    }, {
+        "name": "vivacitenamur"
+    }, {
+        "name": "vivaciteliege"
+    }, {
+        "name": "vivaciteluxembourg"
+    }],
+
+
+    "canada": [{
+        "name": "1erechaine"
+    }, {
+        "name": "cfaifm"
+    }, {
+        "name": "cflm"
+    }, {
+        "name": "chga"
+    }, {
+        "name": "chnc"
+    }, {
+        "name": "choiradiox"
+    }, {
+        "name": "chqc"
+    }, {
+        "name": "chxxfm"
+    }, {
+        "name": "cibl"
+    }, {
+        "name": "cimb"
+    }, {
+        "name": "cism"
+    }, {
+        "name": "cjan"
+    }, {
+        "name": "cjlv"
+    }, {
+        "name": "cjpn"
+    }, {
+        "name": "cjrg"
+    }, {
+        "name":  "cjse"
+    }, {
+        "name": "cjkafm"
+    }, {
+        "name": "ckbn"
+    }, {
+        "name": "ckjmfm"
+    }, {
+        "name": "ckma"
+    }, {
+        "name": "ckmn"
+    }, {
+        "name": "ckoy"
+    }, {
+        "name": "ckrl"
+    }, {
+        "name": "ckroy"
+    }, {
+        "name": "ckyk"
+    }, {
+        "name": "radiocampus"
+    }, {
+        "name": "radiosphere"
+    }],
+
+    "korean": [{
+        "name": "96koolfm"
+    }, {
+        "name": "kpop"
+    }, {
+        "name": "kpophit"
+    }]
+}

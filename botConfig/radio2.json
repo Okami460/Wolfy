@@ -1,0 +1,1406 @@
+{
+    "skyrock": {
+        "name" : "Skyrock",
+        "channel_id" : "1",
+        "alias" : ["skyrock"],
+        "streamurl" : "http://icecast.skyrock.net/s/natio_mp3_128k"
+    },
+
+    "nrj": {
+        "name": "NRJ",
+        "channel_id": "2",
+        "alias": ["nrj"],
+        "streamurl": "http://scdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3?origine=fluxradios"
+    },
+
+    "vibration": {
+        "name": "Vibration",
+        "channel_id": "3",
+        "alias": ["vibration"],
+        "streamurl": "http://vibration.ice.infomaniak.ch/vibration-high.mp3"
+    },
+    "rfi": {
+        "name": "RFI",
+        "channel_id": "4",
+        "alias": ["rfi"],
+        "streamurl": "http://live02.rfi.fr/rfimonde-96k.mp3"
+    },
+    "frinter": {
+        "name": "FRInter",
+        "channel_id": "5",
+        "alias": ["frinter"],
+        "streamurl": "http://icecast.radiofrance.fr/franceinter-hifi.aac"
+    },
+
+    "frmusic": {
+        "name": "FRMusic",
+        "channel_id": "6",
+        "alias": ["frmusic"],
+        "streamurl": "http://direct.francemusique.fr/live/francemusique-midfi.mp3"
+    },
+
+    "frculture": {
+        "name": "FRCulture",
+        "channel_id": "7",
+        "alias": ["frculture"],
+        "streamurl": "http://icecast.radiofrance.fr/franceculture-hifi.aac"
+    },
+
+    "fip": {
+        "name": "FIP",
+        "channel_id": "8",
+        "alias": ["fip"],
+        "streamurl": "http://icecast.radiofrance.fr/fip-hifi.aac"
+    },
+
+    "frbleu": {
+        "name": "FRBleu",
+        "channel_id": "9",
+        "alias": ["frbleu"],
+        "streamurl": "http://direct.francebleu.fr/live/fborleans-midfi.mp3"
+    },
+
+    "frinfo": {
+        "name": "FRInfo",
+        "channel_id": "10",
+        "alias": ["frinfo"],
+        "streamurl": "http://icecast.radiofrance.fr/franceinfo-hifi.aac"
+    },
+
+    "mouv": {
+        "name": "Mouv",
+        "channel_id": "12",
+        "alias": ["mouv"],
+        "streamurl": "http://direct.mouv.fr/live/mouv-midfi.mp3"
+    },
+
+    "rtl": {
+        "name": "RTL",
+        "channel_id": "13",
+        "alias": ["rtl"],
+        "streamurl": "http://icecast.rtl.fr/rtl-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+    },
+
+    "rtl2": {
+        "name": "RTL2",
+        "channel_id": "14",
+        "alias": ["rtl2"],
+        "streamurl": "http://icecast.rtl2.fr/rtl2-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+    },
+
+    "funradio": {
+        "name": "Fun Radio",
+        "channel_id": "15",
+        "alias": ["funradio"],
+        "streamurl": "http://icecast.funradio.fr/fun-1-44-128?listen=webCwsBCggNCQgLDQUGBAcGBg"
+    },
+
+    "europe1": {
+        "name": "Europe 1",
+        "channel_id": "16",
+        "alias": ["europe1"],
+        "streamurl": "http://ais-live.cloud-services.paris:8000/europe1.mp3"
+    },
+
+    "rfm": {
+        "name": "RFM",
+        "channel_id": "17",
+        "alias": ["rfm"],
+        "streamurl": "https://ais-live.cloud-services.paris:8443/rfm.mp3"
+    },
+
+    "virginradio": {
+        "name" : "Virgin Radio",
+        "channel_id" : "18",
+        "alias" : ["vr","virginr","vradio"],
+        "streamurl" : "http://stream.virginradio.fr/virgin.mp3"
+    },
+
+    "rmc": {
+        "name": "RMC",
+        "channel_id": "19",
+        "alias": ["rmc"],
+        "streamurl": "http://chai5she.cdn.dvmr.fr/rmcinfo"
+    },
+
+    "rire&chansons": {
+        "name": "Rire & Chansons",
+        "channel_id": "20",
+        "alias": ["rire&chansons"],
+        "streamurl": "http://scdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3?origine=fluxradios"
+    },
+
+    "cheriefm": {
+        "name": "Cherie FM",
+        "channel_id": "21",
+        "alias": ["cheriefm"],
+        "streamurl": "http://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3?origine=fluxradios"
+    },
+
+    "nostalgie": {
+        "name": "Nostalgie",
+        "channel_id": "22",
+        "alias": ["nostalgie"],
+        "streamurl": "http://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3"
+    },
+
+    "bfm": {
+        "name": "BFM",
+        "channel_id": "23",
+        "alias": ["bfm"],
+        "streamurl": "http://chai5she.cdn.dvmr.fr/bfmbusiness"
+    },
+
+    "airtesshi": {
+        "name": "Air Tesshi",
+        "channel_id": "24",
+        "alias": ["airtesshi"],
+        "streamurl": "https://musicbird.leanstream.co/JCB003-MP3"
+    },
+    "bigbradio": {
+        "name": "Big B Radio",
+        "channel_id": "25",
+        "alias": ["bigbradio"],
+        "streamurl": "https://antares.dribbcast.com/proxy/jpop"
+    },
+    "chiru": {
+        "name": "Chiru",
+        "channel_id": "26",
+        "alias": ["chiru"],
+        "streamurl": "https://chiru.no:8080/stream.mp3"
+    },
+    "fmkyoto": {
+        "name": "FM Kyoto",
+        "channel_id": "27",
+        "alias": ["fmkyoto"],
+        "streamurl": "https://musicbird.leanstream.co/JCB104-MP3"
+    },
+    "fmgojo": {
+        "name": "FM Gojo",
+        "channel_id": "28",
+        "alias": ["fmgojo"],
+        "streamurl": "https://musicbird.leanstream.co/JCB097-MP3"
+    },
+    "fmkurashiki": {
+        "name": "FM Kurashiki",
+        "channel_id": "29",
+        "alias": ["fmkurashiki"],
+        "streamurl": "https://musicbird.leanstream.co/JCB080-MP3"
+    },
+    "fmmaizuru": {
+        "name": "FM Maizuru",
+        "channel_id": "30",
+        "alias": ["fmmaizuru"],
+        "strealurl": "https://musicbird.leanstream.co/JCB066-MP3"
+    },
+    "fmpoco": {
+        "name": "FM Poco",
+        "channel_id": "31",
+        "alias": ["fmpoco"],
+        "streamurl": "https://musicbird.leanstream.co/JCB010-MP3"
+    },
+    "fmtaro": {
+        "name": "FM Taro",
+        "channel_id": "32",
+        "alias": ["fmtaro"],
+        "streamurl": "https://musicbird.leanstream.co/JCB029-MP3"
+    },
+    "fmyamato": {
+        "name": "FM Yamato",
+        "channel_id": "33",
+        "alias": ["fmyamato"],
+        "streamurl": "https://musicbird.leanstream.co/JCB096-MP3"
+    },
+    "happyfm": {
+        "name": "Happy FM",
+        "channel_id": "34",
+        "alias": ["happyfm"],
+        "streamurl": "https://musicbird.leanstream.co/JCB070-MP3"
+    },
+    "harborradio": {
+        "name": "Harbor Radio",
+        "channel_id": "35",
+        "alias": ["harborradio"],
+        "streamurl": "https://musicbird.leanstream.co/JCB009-MP3"
+    },
+    "hassurufm": {
+        "name": "Hassuru FM",
+        "channel_id": "36",
+        "alias": ["hassurufm"],
+        "streamurl": "https://musicbird.leanstream.co/JCB098-MP3"
+    },
+    "j1gold": {
+        "name": "J1 Gold",
+        "channel_id": "37",
+        "alias": ["j1gold"],
+        "streamurl": "https://jenny.torontocast.com:2000/stream/J1GOLD"
+    },
+    "j1hits": {
+        "name": "J1 Hits",
+        "channel_id": "38",
+        "alias": ["j1hits"],
+        "streamurl": "https://jenny.torontocast.com:2000/stream/J1HITS"
+    },
+    "j1extra": {
+        "name": "J1 Extra",
+        "channel_id": "39",
+        "alias": ["j1extra"],
+        "streamurl": "https://jenny.torontocast.com:2000/stream/J1HITS"
+    },
+    "jpoppowerplay": {
+        "name": "Jpop Powerplay",
+        "channel_id": "40",
+        "alias": ["jpoppowerplay"],
+        "streamurl": "https://kathy.torontocast.com:3560/;"
+    },
+    "jpoppowerplaykawaii": {
+        "name": "Jpop Powerplay Kawaii",
+        "channel_id": "41",
+        "alias": ["jpoppowerplaykawaii"],
+        "streamurl": "https://kathy.torontocast.com:3060/;"
+    },
+    "jpopsakura": {
+        "name": "Jpop Sakura",
+        "channel_id": "42",
+        "alias": ["jpopsakura"],
+        "streamurl": "https://igor.torontocast.com:1710/;?icy=https"
+    },
+    "japanimradio": {
+        "name": "Japanim Radio",
+        "channel_id": "43",
+        "alias": ["japanimradio"],
+        "streamurl": "https://streamingv2.shoutcast.com/japanimradio-tokyo"
+    },
+    "kamakurafm": {
+        "name": "Kamakura FM",
+        "channel_id": "44",
+        "alias": ["kamakurafm"],
+        "streamurl": "https://musicbird.leanstream.co/JCB016-MP3"
+    },
+    "kitakata": {
+        "name": "Kitakata",
+        "channel_id": "45",
+        "alias": ["kitakata"],
+        "streamurl": "https://musicbird.leanstream.co/JCB013-MP3"
+    },
+    "naradotfm": {
+        "name": "Nara Dot FM",
+        "channel_id": "46",
+        "alias": ["naradotfm"],
+        "streamurl": "https://musicbird.leanstream.co/JCB073-MP3"
+    },
+    "supertokyoradio": {
+        "name": "Super Tokyo Radio",
+        "channel_id": "47",
+        "alias": ["supertokyofm"],
+        "streamurl": "https://streamer.radio.co/s83eb8ff39/listen"
+    },
+
+    "buureradio": {
+        "name": "Buure Radio",
+        "channel_id": "48",
+        "alias": ["buureradio"],
+        "streamurl": "http://stream.radiotell.ch/radiotell.mp3"
+    },
+    "swissmelody": {
+        "name": "Swiss Melody",
+        "channel_id": "49",
+        "alias": ["swissmelody"],
+        "streamurl": "http://streams.rro.ch/swissmelody.mp3"
+    },
+    "lfm": {
+        "name": "LFM",
+        "channel_id": "50",
+        "alias": ["lfm"],
+        "streamurl": "https://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3"
+    },
+    "radiochablais": {
+        "name": "Radio Chablais",
+        "channel_id": "51",
+        "alias": ["radiochablais"]
+    },
+    "radiolac": {
+        "name": "Radio Lac",
+        "channel_id": "52",
+        "alias": ["radiolac"],
+        "streamurl": "https://radiolac.ice.infomaniak.ch/radiolac-high.mp3"
+    },
+    "rougefm": {
+        "name": "Rouge FM",
+        "channel_id": "53",
+        "alias": ["rougefm"],
+        "streamurl": "http://broadcast.infomaniak.ch/rougefm-high.mp3"
+    },
+    "rsrla1ere": {
+        "name": "RSR La 1ere",
+        "channel_id": "54",
+        "alias": ["rsrla1ere"],
+        "streamurl": "http://stream.srg-ssr.ch/m/la-1ere/mp3_128" 
+    },
+    "rsrespace2": {
+        "name": "RSR Espace 2",
+        "channel_id": "55",
+        "alias": ["rsrespace2"],
+        "streamurl": "http://stream.srg-ssr.ch/m/espace-2/mp3_128"
+    },
+    "rsrcouleur3": {
+        "name": "RSR Couleur 3",
+        "channel_id": "56",
+        "alias": ["rsrcouleur3"],
+        "streamurl": "http://stream.srg-ssr.ch/m/couleur3/mp3_128"
+    },
+    "rsroptionmusique": {
+        "name": "RSR Option Musique",
+        "channel_id": "57",
+        "alias": ["rsroptionmusique"],
+        "streamurl": "http://stream.srg-ssr.ch/m/option-musique/mp3_128"
+    },
+    "voxinox": {
+        "name": "Voxinox",
+        "channel_id": "58",
+        "alias": ["voxinox"],
+        "streamurl": "http://stream.voxinox.ch/voxinox1h/listen.pls"
+    },
+    "srf1": {
+        "name": "SRF 1",
+        "channel_id": "59",
+        "alias": ["srf1"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drs1/mp3_128"
+    },
+    "srf2kultur": {
+        "name": "SRF 2 Kultur",
+        "channel_id": "60",
+        "alias": ["srf2kultur"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drs2/mp3_128"
+    },
+    "srf3": {
+        "name": "SRF 3",
+        "channel_id": "61",
+        "alias": ["srf3"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drs3/mp3_128"
+    },
+    "srf4news": {
+        "name": "SRF 4 News",
+        "channel_id": "62",
+        "alias": ["srf4news"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drs4news/mp3_128"
+    },
+    "srfmusikwelle": {
+        "name": "SRF Musikwelle",
+        "channel_id": "63",
+        "alias": ["srfmusikwelle"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drsmw/mp3_128"
+    },
+    "srfvirus": {
+        "name": "SRF Virus",
+        "channel_id": "64",
+        "alias": ["srfvirus"],
+        "streamurl": "http://stream.srg-ssr.ch/m/drsvirus/mp3_128"
+    },
+
+    "radionational": {
+        "name": "radio National",
+        "channel_id": "65",
+        "alias": ["radionational"],
+        "streamurl": "http://live-radio01.mediahubaustralia.com/6RNW/mp3/"
+    },
+    "aussiesbarradio": {
+        "name": "Aussies Bar Radio",
+        "channel_id": "66",
+        "alias": ["aussiesbarradio"],
+        "streamurl": "http://ts3.x24hr.com:8000/ABR"
+    },
+    "bbc1": {
+        "name": "BBC 1",
+        "channel_id": "67",
+        "alias": ["bbc1"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one"
+    },
+    "bbc2": {
+        "name": "BBC 2",
+        "channel_id": "68",
+        "alias": ["bbc2"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two"
+    },
+    "bbc3": {
+        "name": "BBC 3",
+        "channel_id": "69",
+        "alias": ["bbc3"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three"
+    },
+    "bbc4": {
+        "name": "BBC 4",
+        "channel_id": "70",
+        "alias": ["bbc4"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm"
+    },
+    "bbc5": {
+        "name": "BBC 5",
+        "channel_id": "71",
+        "alias": ["bbc5"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk"
+    },
+    "bbcscotland": {
+        "name": "BBC Scotland",
+        "channel_id": "72",
+        "alias": ["bbcscotland"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_fm"
+    },
+    "bbcculster": {
+        "name": "BBC Culster",
+        "channel_id": "73",
+        "alias": ["bbcculster"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_ulster"
+    },
+    "bbcwales": {
+        "name": "BBC Wales",
+        "channel_id": "74",
+        "alias": ["bbcwales"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_wales_fm"
+    },
+    "bbcasiannetwork": {
+        "name": "BBC Asian Network",
+        "channel_id": "75",
+        "alias": ["bbcasiannetwork"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_asian_network"
+    },
+    "bbcworldservice": {
+        "name": "BBC World Service",
+        "channel_id": "76",
+        "alias": ["bbcworldservice"],
+        "streamurl": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
+    },
+    "cbcradioonetoronto": {
+        "name": "CBC Radio One Toronto",
+        "channel_id": "77",
+        "alias": ["cbcradiotoronto"],
+        "streamurl": "http://cbcmp3.ic.llnwd.net/stream/cbcmp3_cbc_r1_tor" 
+    },
+    "cknw": {
+        "name": "CKNW",
+        "channel_id": "78",
+        "alias": ["cknw"],
+        "streamurl": "http://live.leanstream.co/CKNWAM"
+    },
+    "heartfm": {
+        "name": "Heart FM",
+        "channel_id": "79",
+        "alias": ["heartfm"],
+        "streamurl": "http://iceant.antfarm.co.za:8000/HeartFM.mp3"
+    },
+    "lbclondon": {
+        "name": "LBC London",
+        "channel_id": "80",
+        "alias": ["lbllondon"],
+        "streamurl": "http://media-the.musicRadio.com/LBCLondon"
+    },
+    "newstalk1010": {
+        "name": "Newstalk 1010",
+        "channel_id": "81",
+        "alias": ["newstalk1010"]
+    },
+    "rnznational": {
+        "name": "RNZ National",
+        "channel_id": "82",
+        "alias": ["rnznational"],
+        "streamurl": "https://stream-ice.radionz.co.nz/national.mp3"
+    },
+    "talkradio": {
+        "name": "Talk Radio",
+        "channel_id": "83",
+        "alias": ["talkradio"],
+        "streamurl": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM702.mp3"
+    },
+
+
+
+
+
+
+
+
+
+    "asiandreamradio": {
+        "name": "Asian Dream Radio",
+        "channel_id": "84",
+        "alias": ["asiandreamradio"],
+        "streamurl": "https://igor.torontocast.com:1025/stream/1/"
+    },
+
+
+
+
+
+
+
+
+
+    "rne1": {
+        "name": "RNE 1",
+        "channel_id": "85",
+        "alias": ["rne1"],
+        "streamurl": "https://addrad.io/4459dvr"
+    },
+    "rne2": {
+        "name": "RNE 2",
+        "channel_id": "86",
+        "alias": ["rne2"],
+        "streamurl": "https://addrad.io/4459dfb"
+    },
+    "rne3": {
+        "name": "RNE 3",
+        "channel_id": "87",
+        "alias": ["rne3"],
+        "streamurl": "https://addrad.io/4459f84"
+    },
+    "rne4": {
+        "name": "RNE 4",
+        "channel_id": "88",
+        "alias": ["rne4"],
+        "streamurl": "https://addrad.io/4459fgb"
+    },
+    "cadenacope": {
+        "name": "Cadena COPE",
+        "channel_id": "89",
+        "alias": ["cadenacope"],
+        "streamurl": "https://flucast-b01-02.flumotion.com/cope/net2.mp3"
+    },
+    "cadenaser": {
+        "name": "Cadena SER",
+        "channel_id": "90",
+        "alias": ["cadenaser"],
+        "streamurl": "http://20133.live.streamtheworld.com/SER_MADRID_SC"
+    },
+    "ondeacero": {
+        "name": "Onda Cero",
+        "channel_id": "91",
+        "alias": ["ondacero"],
+        "streamurl": "http://icecast-streaming.nice264.com/ondacero"
+    },
+    "los40argentina": {
+        "name": "Los 40 Argentina",
+        "channel_id": "92",
+        "alias": ["los40argentina"],
+        "streamurl": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_ARGENTINA.mp3"
+    },
+    "radio26": {
+        "name": "Radio 26",
+        "channel_id": "93",
+        "alias": ["radio26"],
+        "streamurl": "https://icecast.teveo.cu/LsxKNz7b"
+    },
+    "radiocontinental": {
+        "name": "Radio Continental",
+        "channel_id": "94",
+        "alias": ["radiocontinental"],
+        "streamurl": "http://18433.live.streamtheworld.com/CONTINENTALAAC_SC"
+    },
+    "fmcordoba": {
+        "name": "FM Cordoba",
+        "channel_id": "95",
+        "alias": ["fmcordoba"],
+        "streamurl": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENA3.mp3"
+    },
+    "nationalfoklorica": {
+        "name": "National Foklorica",
+        "channel_id": "96",
+        "alias": ["nationalfoklorica"],
+        "streamurl": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad38"
+    },
+    "radioranchito": {
+        "name": "Radio Ranchito",
+        "channel_id": "97",
+        "alias": ["radioranchito"],
+        "streamurl": "http://streamingcwsradio30.com:8012/stream.mp3"
+    },
+    "imerlabgrande": {
+        "name": "Imer La B Grande",
+        "channel_id": "98",
+        "alias": ["imerlabgrande"],
+        "streamurl": "http://s2.mexside.net:8024/stream"
+    },
+    "ucvradio": {
+        "name": "UCV Radio",
+        "channel_id": "99",
+        "alias": ["ucvradio"],
+        "streamurl": "http://sonando.us.digitalproserver.com/ucvradio"
+    },
+    "radiohabana": {
+        "name": "Radio Habana",
+        "channel_id": "100",
+        "alias": ["radiohabana"],
+        "streamurl": "https://icecast.teveo.cu/McW3fLhs"
+    },
+
+
+
+
+
+
+
+
+    "b5aktuell": {
+        "name": "B5 Aktuell",
+        "channel_id": "101",
+        "alias": ["b5aktuell"],
+        "streamurl": "http://addrad.io/444xzn9"
+    },
+    "bayern2nord": {
+        "name": "Bayern 2 Nord",
+        "channel_id": "102",
+        "alias": ["bayern2nord"],
+        "streamurl": "http://addrad.io/44598nm"
+    },
+    "brheimat": {
+        "name": "BR Heimat",
+        "channel_id": "103",
+        "alias": ["brheimat"],
+        "streamurl": "http://addrad.io/44598vt"
+    },
+    "derbarde": {
+        "name": "Der-Barde",
+        "channel_id": "104",
+        "alias": ["derbarde"],
+        "streamurl": "http://stream2.laut.fm/der-barde"
+    },
+    "duncklewelten": {
+        "name": "Dunckle Welten",
+        "channel_id": "105",
+        "alias": ["duncklewelten"],
+        "streamurl": "https://dunklewelten.stream.laut.fm/dunkle_welten"
+    },
+    "fantasyradio": {
+        "name": "Fantasy Radio",
+        "channel_id": "106",
+        "alias": ["fantasyradio"],
+        "streamurl": "http://stream1.laut.fm/fantasyradio"
+    },
+    "mdr1radiosachsen": {
+        "name": "MDR 1 Radio Sachsen",
+        "channel_id": "107",
+        "alias": ["mdr1radiosachsen"],
+        "streamurl": "http://mdr-284280-0.cast.mdr.de/mdr/284280/0/mp3/high/stream.mp3"
+    },
+    "medievalfantasy": {
+        "name": "Medieval Fantasy",
+        "channel_id": "108",
+        "alias": ["medievalfantasy"],
+        "streamurl": "https://stream.laut.fm/medieval-fantasy"
+    },
+    "narrenwut": {
+        "name": "Narrenwut",
+        "channel_id": "108",
+        "alias": ["narrenwut"],
+        "streamurl": "http://stream2.laut.fm/mittelalter-net"
+    },
+    "ndr1welleworld": {
+        "name": "NDR 1 Well World",
+        "channel_id": "109",
+        "alias": ["ndr1wellworld"],
+        "streamurl": "http://ndr-ndr1wellenord-kiel.cast.addradio.de/ndr/ndr1wellenord/kiel/mp3/128/stream.mp3"
+    },
+    "ndrinfo": {
+        "name": "NDR Info",
+        "channel_id": "110",
+        "alias": ["ndrinfo"],
+        "streamurl": "http://ndr-ndrinfo-niedersachsen.cast.addradio.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3"
+    },
+    "rabenwind": {
+        "name": "Rabenwind",
+        "channel_id": "111",
+        "alias": ["rabenwind"],
+        "streamurl": "https://stream.laut.fm/rabenwind"
+    },
+    "radio1nurfurerwachsene": {
+        "name": "Radio 1 Nur Für Erwachsene",
+        "channel_id": "112",
+        "alias": ["radio1nurfurerwachsene"],
+        "stream_url": "http://radio.nello.tv/128k"
+    },
+    "radioblass": {
+        "name": "Radio Bläss",
+        "channel_id": "113",
+        "alias": ["radioblass"],
+        "streamurl": "https://schw3.streampanel.cloud/10-blaess"
+    },
+    "radiocharivari": {
+        "name": "Radio Charivari",
+        "channel_id": "114",
+        "alias": ["radiocharivari"],
+        "streamurl": "https://rs5.stream24.net/stream"
+    },
+    "radiodreyeckland": {
+        "name": "Radio Dreyeckland",
+        "channel_id": "115",
+        "alias": ["radiodreyeckland"],
+        "streamurl": "http://www.rdl.de:8000/rdl"
+    },
+    "radiohamburg": {
+        "name": "Radio Hamburg",
+        "channel_id": "116",
+        "alias": ["radiohamburg"],
+        "streamurl": "https://stream.radiohamburg.de/rhh-live/mp3-128"
+    },
+    "radioheimatmelodie": {
+        "name": "Radio Heimatmelodie",
+        "channel_id": "117",
+        "alias": ["radioheimatmelodie"],
+        "streamurl": "http://212.77.178.166:80/"
+    },
+    "radiolegende": {
+        "name": "Radio Legende",
+        "channel_id": "118",
+        "alias": ["radiolegende"],
+        "streamurl": "https://einfach-webradio.de:10443/radio/8050/radio.mp3"
+    },
+    "radiomelodie": {
+        "name": "Radio Melodie",
+        "channel_id": "119",
+        "alias": ["radiomelodie"],
+        "streamurl": "http://91.250.77.9:8020/"
+    },
+    "radiou1tirol": {
+        "name": "Radio U1 Tirol",
+        "channel_id": "120",
+        "alias": ["radiou1tirol"],
+        "streamurl": "http://server24923.streamplus.de:24332/"
+    },
+    "deutschlandfunck": {
+        "name": "Deutschlandfunk",
+        "channel_id": "121",
+        "alias": ["deutschlandfunck"],
+        "streamurl": "http://st01.dlf.de/dlf/01/128/mp3/stream.mp3"
+    },
+    "swr4badenwurttemberf": {
+        "name": "SWR 4 Baden-Württemberg",
+        "channel_id": "122",
+        "alias": ["swr4badenwurttemberg"],
+        "streamurl": "http://addrad.io/4WRLMZ"
+    },
+    "radiomelodydab9d": {
+        "name": "Radio Melody DAB 9D",
+        "channel_id": "123",
+        "alias": ["radiomelodydab9D"],
+        "streamurl": "http://fm1melody.ice.infomaniak.ch/fm1melody-128.mp3"
+    },
+
+
+
+
+
+
+    
+    
+    
+    "lolliradio": {
+        "name": "Lolli Radio",
+        "channel_id": "124",
+        "alias": ["lolliradio"],
+        "streamurl": "https://stream.lolliradio.net/lolli_italia.mp3"
+    },
+    "rairadio1": {
+        "name": "Rais Radio 1",
+        "channel_id": "125",
+        "alias": ["rairadio1"],
+        "streamurl": "https://icestreaming.rai.it/1.mp3"
+    },
+    "rairadio2": {
+        "name": "Rai Radio 2",
+        "channel_id": "126",
+        "alias": ["rairadio2"],
+        "streamurl": "https://icestreaming.rai.it/13.mp3"
+    } ,
+    "rairadio3": {
+        "name": "Radi Radio 3",
+        "channel_id": "127",
+        "alias": ["rairadio3"],
+        "streamurl": "https://icestreaming.rai.it/2.mp3"
+    },
+    "rairadio4": {
+        "name": "Rai Radio 4",
+        "channel_id": "128",
+        "alias": ["rairadio4"],
+        "streamurl": "https://icestreaming.rai.it/3.mp3"
+    },
+    "rairadiokids": {
+        "name": "Rai Radio Kids",
+        "channel_id": "129",
+        "alias": ["rairadiokids"],
+        "streamurl": "https://icestreaming.rai.it/11.mp3"
+    },
+    "rairadiolive": {
+        "name": "Rai Radio Live",
+        "channel_id": "130",
+        "alias": ["rairadiolive"],
+        "streamurl": "https://icestreaming.rai.it/10.mp3"
+    },
+    "rairadiotutta": {
+        "name": "Rai Radio Tutta",
+        "channel_id": "131",
+        "alias": ["rairadiotutta"],
+        "streamurl": "https://icestreaming.rai.it/4.mp3"
+    },
+    "rairadioparlamento": {
+        "name": "Rai Radio Parlamento",
+        "channel_id": "132",
+        "alias": ["rairadioparlamento"],
+        "streamurl": "https://icestreaming.rai.it/7.mp3"
+    },
+    "raiisoradio": {
+        "name": "Rai Iso Radio",
+        "channel_id": "133",
+        "alias": ["raiisoradio"],
+        "streamurl": "https://icestreaming.rai.it/6.mp3"
+    },
+    "radiosicilia": {
+        "name": "Radio Sicilia",
+        "channel_id": "134",
+        "alias": ["radiosicilia"],
+        "streamurl": "http://dreamsiteradiocp3.com:8032/stream/"
+    },
+
+
+
+
+
+
+    "alfamais": {
+        "name": "Alfa Mais",
+        "channel_id": "135",
+        "alias": ["alfmais"],
+        "streamurl": "https://stream.rcs.revma.com/f2aehqqtkm0uv"
+    },
+    "alfapop": {
+        "name": "Alfa Pop",
+        "channel_id": "136",
+        "alias": ["alfapop"],
+        "streamurl": "https://stream.rcs.revma.com/rmbkrmqtkm0uv"
+    },
+    "alfaradio": {
+        "name": "Alfa Radio",
+        "channel_id": "137",
+        "alias": ["alfaradio"],
+        "streamurl": "https://stream.rcs.revma.com/amrbkhqtkm0uv"
+    },
+    "amaliafm": {
+        "name": "Amalia FM",
+        "channel_id": "138",
+        "alias": ["amaliafm"],
+        "streamurl": "http://centova.radios.pt:9496/stream"
+    },
+    "radioamor": {
+        "name": "Radio Amor",
+        "channel_id": "139",
+        "alias": ["radioamor"],
+        "streamurl": "http://stream.radioamorportugal.com:8000/rap.mp3"
+    },
+    "radiofestival": {
+        "name": "Radio Festival",
+        "channel_id": "140",
+        "alias": ["140"],
+        "streamurl": "http://centova.radios.pt/proxy/520?mp=/stream"
+    },
+    "radiogrenal": {
+        "name": "Radio Grenal",
+        "channel_id": "141",
+        "alias": ["radiogrenal"],
+        "streamurl": "http://cast4.audiostream.com.br:8649/mp3"
+    },
+    "radiojbfm": {
+        "name": "Radio JBFM",
+        "channel_id": "142",
+        "alias": ["radiojbfm"],
+        "streamurl": "http://14553.live.streamtheworld.com/JBFM_SC"
+    },
+    "radioondaviva": {
+        "name": "Radio Onda Viva",
+        "channel_id": "143",
+        "alias": ["radioondaviva"],
+        "streamurl": "http://centova.radios.pt:9524/stream"
+    },
+    "radioprata": {
+        "name": "Radio Prata",
+        "channel_id": "144",
+        "alias": ["radioprata"],
+        "streamurl": "http://r15.ciclano.io:8792/stream"
+    },
+    "radiosantiago": {
+        "name": "Radio Santiago",
+        "channel_id": "145",
+        "alias": ["radiosantiago"],
+        "streamurl": "http://eu6.fastcast4u.com:5002/santiagoaac"
+    },
+    "radiobrasilandia": {
+        "name": "Radio Brasilandia",
+        "channel_id": "146",
+        "alias": ["radiobrasilandia"],
+        "streamurl": "http://live.paineldj.com.br:9356/live"
+    },
+    "radiotocaadancar": {
+        "name": "Radio Toca a Dancar",
+        "channel_id": "147",
+        "alias": ["radiotocaadancar"],
+        "streamurl": "https://sp0.redeaudio.com/9974/stream/;"
+    },
+    "radiovaldevez": {
+        "name": "Radio Valdevez",
+        "channel_id": "148",
+        "alias": ["radiovaldevez"],
+        "streamurl": "http://centova.radios.pt:9508/stream"
+    },
+    "rtnantena1": {
+        "name": "RTP Antena 1",
+        "channel_id": "149",
+        "alias": ["rtnantena1"],
+        "streamurl": "http://radiocast.rtp.pt/antena180a.mp3"
+    },
+    "rtnantena1fado": {
+        "name": "RTN Antena 1 Fado",
+        "channel_id": "150",
+        "alias": ["rtnantena1fado"],
+        "streamurl": "http://radiocast.rtp.pt/antena1fado80a.mp3"
+    },
+    "rtnantena1vida": {
+        "name": "RTN Antena 1 Vida",
+        "channel_id": "151",
+        "alias": ["rtnantena1vida"],
+        "streamurl": "http://radiocast.rtp.pt/antena1vida80a.mp3"
+    },
+    "rtpantena2": {
+        "name": "RTN Antena 2",
+        "channel_id": "152",
+        "alias": ["rtpantena2"],
+        "streamurl": "http://radiocast.rtp.pt/antena280a.mp3"
+    },
+    "rtpantena3": {
+        "name": "RTP Antena 3",
+        "channel_id": "153",
+        "alias": ["rtpantena3"],
+        "streamurl": "http://radiocast.rtp.pt/antena380a.mp3"
+    },
+    "rtpinternacional": {
+        "name": "RTP Internacional",
+        "channel_id": "154",
+        "alias": ["rtpinternational"],
+        "streamurl": "http://radiocast.rtp.pt/rdpint80a.mp3"
+    },
+    "rtpradiozigzag": {
+        "name": "RTP Radio ZigZag",
+        "channel_id": "155",
+        "alias": ["rtpradiozigzag"],
+        "streamurl": "http://radiocast.rtp.pt/zigzag80a.mp3"
+    },
+    "superradiotupi": {
+        "name": "Super Radio Tupi",
+        "channel_id": "156",
+        "alias": ["superradiotupi"],
+        "streamurl": "https://8923.brasilstream.com.br/mp3"
+    },
+
+
+
+
+
+
+
+    
+  
+    "bardssong": {
+        "name": "Bards Song",
+        "channel_id": "157",
+        "alias": ["bardssong"],
+        "streamurl": "http://ic6.101.ru:8000/stream/pro/aac/64/35"
+    },
+    "russianfolk": {
+        "name": "Russian Folk",
+        "channel_id": "158",
+        "alias": ["russianfolk"],
+        "streamurl": "http://ic4.101.ru:8000/a40"
+    },
+    "ussr": {
+        "name": "USSR",
+        "channel_id": "159",
+        "alias": ["ussr"],
+        "streamurl": "http://ic4.101.ru:8000/a47"
+    },
+    "avtoradio": {
+        "name": "Avtoradio",
+        "channel_id": "160",
+        "alias": ["avtoradio"],
+        "streamurl": "http://pub0101.101.ru:8000/stream/air/aac/64/100"
+    },
+    "echomoskva": {
+        "name": "Echo Moskva",
+        "channel_id": "161",
+        "alias": ["echomoskva"],
+        "streamurl": "https://icecast-echomsksni.cdnvideo.ru/stream"
+    },
+    "nasheradio": {
+        "name": "Nashe Radio",
+        "channel_id": "162",
+        "alias": ["nasheradio"],
+        "streamurl": "http://nashe1.hostingradio.ru/nashe-128.mp3"
+    },
+    "radioborneo": {
+        "name": "Radio Borneo",
+        "channel_id": "163",
+        "alias": ["radioborneo"],
+        "streamurl": "http://live.borneo.ru:8888/128"
+    },
+    "radiodacha": {
+        "name": "Radio Dacha",
+        "channel_id": "164",
+        "alias": ["radiodacha"],
+        "streamurl": "http://stream2.n340.com:80/12_dacha_64_reg_1093?type=.aac&UID=8384190CFD42F3DDFC8CAE5BEF97CBB3"
+    },
+    "radioelhi": {
+        "name": "Radio EL-HI",
+        "channel_id": "165",
+        "alias": ["radioelhi"],
+        "streamurl": "http://a4.radioheart.ru:8002/RH6003"
+    },
+    "radioshanson": {
+        "name": "Radio Shanson",
+        "channel_id": "166",
+        "alias": ["radioshanson"],
+        "streamurl": "https://chanson.hostingradio.ru:8041/chanson128.mp3"
+    },
+    "radiomayak": {
+        "name": "Radio Mayak",
+        "channel_id": "167",
+        "alias": ["radiomayak"],
+        "streamurl": "https://icecast-vgtrk.cdnvideo.ru/mayakfm_mp3_128kbps"
+    },
+    "radioobserver": {
+        "name": "Radio Observer",
+        "channel_id": "168",
+        "alias": ["radioobserver"],
+        "streamurl": "https://radio-stream-0.obozrevatel.com/rep128.mp3"
+    },
+    "radiopik": {
+        "name": "Radio Pik",
+        "channel_id": "169",
+        "alias": ["radiopik"],
+        "streamurl": "http://91.90.255.85:8000/01"
+    },
+    "radiorussia": {
+        "name": "Radio Russia",
+        "channel_id": "170",
+        "alias": ["radiorussia"],
+        "streamurl": "http://icecast.vgtrk.cdnvideo.ru/rrzonam_mp3_192kbps"
+    },
+    "radiorusskij": {
+        "name": "Radio RussKij",
+        "channel_id": "171",
+        "alias": ["radiorusskij"],
+        "streamurl": "http://rb-stream.de:8000/rrb_64.mp3"
+    },
+    "radiostalingrad": {
+        "name": "Radio Stalingrad",
+        "channel_id": "172",
+        "alias": ["radiostalingrad"],
+        "streamurl": "http://stream.makradio.ru/stalingrad.mp3/title"
+    },
+    "radiosvoboda": {
+        "name": "Radio Svoboda",
+        "channel_id": "173",
+        "alias": ["radiosvoboda"],
+        "streamurl": "https://stream.radiojar.com/hcrb063nn3quv"
+    },
+    "radiozvezda": {
+        "name": "Radio Zvezda",
+        "channel_id": "174",
+        "alias": ["radiozvezda"],
+        "streamurl": "http://89.208.99.16:8088/zvezda_128"
+    },
+    "russkoemoscow": {
+        "name": "Russkoe Radio Moscow",
+        "channel_id": "175",
+        "alias": ["russkoemoscow"],
+        "streamurl": "https://rusradio.hostingradio.ru/rusradio96.aacp"
+    },
+    "russkoetallinestonia": {
+        "name": "Russkoe Tallin-Estonia",
+        "channel_id": "176",
+        "alias": ["russkoetallinestonia"],
+        "streamurl": "http://rr.babahhcdn.com/RR"
+    },
+    "russiansongs": {
+        "name": "Russian Songs",
+        "channel_id": "177",
+        "alias": ["russoansongs"],
+        "streamurl": "http://listen.rusongs.ru/ru-mp3-128"
+    },
+    "vestiefm": {
+        "name": "Vestie FM",
+        "channel_id": "178",
+        "alias": ["vestiefm"],
+        "streamurl": "https://icecast-vgtrk.cdnvideo.ru/vestifm_mp3_128kbps"
+    },
+
+
+
+
+
+
+
+
+
+    "classque21": {
+        "name": "Classique 21",
+        "channel_id": "179",
+        "alias": ["classique21"],
+        "streamurl": "http://radios.rtbf.be/classic21-128.mp3"
+    },
+    "la1ere": {
+        "name": "La 1ere",
+        "channel_id": "180",
+        "alias": ["la1ere"],
+        "streamurl": "https://radios.rtbf.be/laprem1erebxl-128.mp3"
+    },
+    "purefm": {
+        "name": "Pure FM",
+        "channel_id": "181",
+        "alias": ["purefm"],
+        "streamurl": "http://radios.rtbf.be/pure-128.mp3"
+    },
+    "vivacitebruxelle": {
+        "name": "Vivacite Bruxelle",
+        "channel_id": "182",
+        "alias": ["vivacitebruxelle"],
+        "streamurl": "http://radios.rtbf.be/vivabxl-128.mp3"
+    },
+    "vivacitemons": {
+        "name": "Vivacite Mons",
+        "channel_id": "183",
+        "alias": ["vivacitemons"],
+        "streamurl": "https://radios.rtbf.be/vivahainaut-128.mp3"
+    },
+    "vivacitecharleroi": {
+        "name": "Vivacite Charleroi",
+        "channel_id": "184",
+        "alias": ["vivacitecharleroi"],
+        "streamurl": "http://radios.rtbf.be/vivacharleroi-128.mp3"
+    },
+    "vivacitenamur": {
+        "name": "Vivacite Namur",
+        "channel_id": "185",
+        "alias": ["vivacitenamur"],
+        "streamurl": "https://radios.rtbf.be/vivanamurbw-128.mp3"
+    },
+    "vivaciteliege": {
+        "name": "Vivacite Liège",
+        "channel_id": "186",
+        "alias": ["vivaciteliege"],
+        "streamurl": "https://radios.rtbf.be/vivaliege-128.mp3"
+    },
+    "vivaciteluxembourg": {
+        "name": "Vivacite Luxembourg",
+        "channel_id": "187",
+        "alias": ["vivaciteluxembourg"],
+        "streamurl": "http://radios.rtbf.be/vivalux-128.mp3"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    "1erechaine": {
+        "name": "1ere Chaine",
+        "channel_id": "188",
+        "alias": ["1erechaine"],
+        "streamurl": "http://cbcmp3.ic.llnwd.net/stream/cbcmp3_P-2QQUE0_QUE"
+    },
+    "cfaifm": {
+        "name": "CFAI-FM",
+        "channel_id": "189",
+        "alias": ["cfaifm"],
+        "streamurl": "http://stream2.statsradio.com:8028/stream"
+    },
+    "cflm": {
+        "name": "CFLM",
+        "channel_id": "190",
+        "alias": ["cflm"],
+        "streamurl": "http://stream.statsRadio.com:8018/stream"
+    },
+    "chga": {
+        "name": "CHGA",
+        "channel_id": "191",
+        "alias": ["chga"],
+        "streamurl": "http://stream02.ustream.ca:8000/chga128.mp3"
+    },
+    "chnc": {
+        "name": "CHNC",
+        "channel_id": "192",
+        "alias": ["chnc"],
+        "streamurl": "http://stream2.statsradio.com:8098/stream"
+    },
+    "choiradiox": {
+        "name": "Choi RadioX",
+        "channel_id": "193",
+        "alias": ["choiradiox"],
+        "streamurl": "http://icecast-choi.rncm.ca/choi.mp3"
+    },
+    "chqc": {
+        "name": "CHQC",
+        "channel_id": "194",
+        "alias": ["chqc"],
+        "streamurl": "http://stream2.statsradio.com:8026/stream"
+    },
+    "chxxfm": {
+        "name": "CHXX FM",
+        "channel_id": "195",
+        "alias": ["chxxfm"],
+        "streamurl": "http://icecast-chxx.rncm.ca/chxx.mp3"
+    },
+    "cibl": {
+        "name": "CIBL",
+        "channel_id": "196",
+        "alias": ["cibl"],
+        "streamurl": "http://stream02.ustream.ca:8000/cibl128.mp3"
+    },
+    "cimb": {
+        "name": "CIMB",
+        "channel_id": "197",
+        "alias": ["cimb"],
+        "streamurl": "http://curiosity.shoutca.st:6039/stream/;"
+    },
+    "cism": {
+        "name": "CISM",
+        "channel_id": "198",
+        "alias": ["cism"],
+        "streamurl": "http://stream03.ustream.ca/cism128.mp3"
+    },
+    "cjan": {
+        "name": "CJAN",
+        "channel_id": "199",
+        "alias": ["cjan"],
+        "streamurl": "http://stream2.statsradio.com:8018/stream"
+    },
+    "cjlv": {
+        "name": "CJLV",
+        "channel_id": "200",
+        "alias": ["cjlv"],
+        "streamurl": "http://174.142.215.249:8620/;stream.mp3;"
+    },
+    "cjpn": {
+        "name": "CJPN",
+        "channel_id": "201",
+        "alias": ["cjpn"],
+        "streamurl": "http://stream2.statsradio.com:8022/stream"
+    },
+    "cjrg": {
+        "name": "CJRG",
+        "channel_id": "202",
+        "alias": ["cjrg"],
+        "streamurl": "http://stream02.ustream.ca:8000/cjrg128.mp3"
+    },
+    "cjse": {
+        "name": "CJSE",
+        "channel_id": "203",
+        "alias": ["cjse"],
+        "streamurl": "http://stream2.statsradio.com:8008/stream"
+    },
+    "cjkafm": {
+        "name": "CJKA FM",
+        "channel_id": "204",
+        "alias": ["cjkafm"],
+        "streamurl": "http://stream.statsradio.com:8060/stream"
+    },
+    "ckbn": {
+        "name": "CKBN",
+        "channel_id": "205",
+        "alias": ["ckbn"],
+        "streamurl": "http://stream.statsradio.com:8056/stream"
+    },
+    "ckjmfm": {
+        "name": "CKJM FM",
+        "channel_id": "206",
+        "alias": ["ckjmfm"],
+        "streamurl": "http://stream2.statsradio.com:8036/stream"
+    },
+    "ckma": {
+        "name": "CKMA",
+        "channel_id": "207",
+        "alias": ["ckma"],
+        "streamurl": "http://stream2.statsradio.com:8024/stream"
+    },
+    "ckmn": {
+        "name": "CKMN",
+        "channel_id": "208",
+        "alias": ["ckmn"],
+        "streamurl": "http://stream.statsradio.com:8070/stream"
+    },
+    "ckoy": {
+        "name": "CKOY",
+        "channel_id": "209",
+        "alias": ["ckoy"],
+        "streamurl": "http://cogecomedia.leanstream.co/CKOYFM-MP3"
+    },
+    "ckrl": {
+        "name": "CKRL",
+        "channel_id": "210",
+        "alias": ["ckrl"],
+        "streamurl": "http://stream02.ustream.ca:8000/ckrl128.mp3"
+    },
+    "ckroy": {
+        "name": "CKROY",
+        "channel_id": "211",
+        "alias": ["ckroy"],
+        "streamurl": "http://stream2.statsradio.com:8014/stream"
+    },
+    "ckyk": {
+        "name": "CKYK",
+        "channel_id": "212",
+        "alias": ["ckyk"],
+        "streamurl": "http://cogecomedia.leanstream.co/CKYKFM-MP3"
+    },
+    "radiocampus": {
+        "name": "Radio Campus",
+        "channel_id": "213",
+        "alias": ["radiocampus"],
+        "streamurl": "http://ecoutez.chyz.ca:8000/mp3"
+    },
+    "radiosphere": {
+        "name": "Radio Sphère",
+        "channel_id": "214",
+        "alias": ["radioshere"],
+        "streamurl": "http://audio.radiosphere.ca:8500/"
+    },
+
+
+
+
+
+
+
+
+
+
+    "96koolfm": {
+        "name": "96 Kool FM",
+        "channel_id": "215",
+        "alias": ["96koolfm"],
+        "streamurl": "https://node-03.zeno.fm/4d3rkqafuqzuv?rj-ttl=5&rj-tok=AAABfgcebR8Awa2UEk85Hw6gOA"
+    },
+
+    "kpop": {
+        "name": "Kpop",
+        "channel_id": "216",
+        "alias": ["kpop"],
+        "streamurl": "https://antares.dribbcast.com/proxy/kpop?mp=/s"
+    },
+    "kpophit": {
+        "name": "Kpop HIT",
+        "channel_id": "217",
+        "alias": ["kpophit"],
+        "streamurl": "https://kpophits.stream.laut.fm/kpophits?ref=radiode&t302=2021-12-29_18-15-52&uuid=1a440698-2e0b-4982-8bd6-ca1a08959ff9"
+    }
+}

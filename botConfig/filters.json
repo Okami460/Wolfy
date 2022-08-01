@@ -1,0 +1,28 @@
+{
+    "filter": {
+        "clear": "dynaudnorm=f=200",
+        "bassboost": "bass=g=20,dynaudnorm=f=200",
+        "8D": "apulsator=hz=0.08",
+        "vaporwave": "aresample=48000,asetrate=48000*0.8",
+        "nightcore": "aresample=48000,asetrate=48000*1.25",
+        "antinightcore": "aresample=48000,asetrate=48000*0.8",
+        "sway": "apulsator=hz=0.08",
+        "fade": "afade=t=in:ss=0:d=10",
+        "phaser": "aphaser=in_gain=0.4",
+        "vibrato": "vibrato=f=6.5",
+        "surrounding": "surround",
+        "pulsator": "apulsator=hz=1",
+        "subboost": "asubboost",
+        "gate": "agate",
+        "haas": "haas",
+        "mcompand": "mcompand",
+        "cursed": "vibrato=f=6.5,tremolo,aresample=48000,asetrate=48000*1.25",
+        "rickroll": "bass=g=33,apulsator=hz=0.06,vibrato=f=2.5,tremolo,asetrate=48000*0.8",
+        "crystalizer": "crystalizer=i=4",
+        "earrape": "earwax,bass=f=100,equalizer=f=1000:t=q:w=1:g=48",
+        "echo": "aecho=0.8:0.9:1000:0.3",
+        "double": "aecho=0.8:0.88:60:0.4",
+        "fullaudio": "bass=g=7,dynaudnorm=f=200,apulsator=hz=0.08",
+        "pitch": "rubberband=pitch=2"
+    }
+}
