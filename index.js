@@ -14,10 +14,9 @@ dotenv.config()
 
 /* Import de mongoose*/
 const mongoose = require("mongoose");
-const mongoDBURL = config.mongoDBURl
 
 /*Connection à MongoDB */
-mongoose.connect(mongoDBURL, {
+mongoose.connect(process.env.MONGODBURL, {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }).then(console.log("Connecté à MongoDB"))

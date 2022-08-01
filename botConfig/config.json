@@ -1,12 +1,5 @@
 {
   "prefix": "w!",
-  "mongoDBURl": "mongodb://Okami:Nathdel45@wolfy-shard-00-00.xtym0.mongodb.net:27017,wolfy-shard-00-01.xtym0.mongodb.net:27017,wolfy-shard-00-02.xtym0.mongodb.net:27017/WolfyV13?replicaSet=atlas-ckpnnh-shard-0&ssl=true&authSource=admin",
-  "spotify_api": {
-    "enabled": false,
-    "_COMMENT_": "",
-    "clientSecret": "0ed073c63a854d308f457d4aaaa23dbf",
-    "clientId": "543e71f859ea4fc3b252d7af40ceef73"
-  },
   "edit": true,
   "disableManualCmds": true,
   "tiles": [

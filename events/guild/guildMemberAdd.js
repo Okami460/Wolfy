@@ -1,9 +1,10 @@
 const client = require('../../index');
 const Discord = require('discord.js');
 const Canvas = require('canvas');
-const { Database } = require('quickmongo');
-const mongoDBURL = require("../../botConfig/config.json").mongoDBURl;
-const quickmongo = new Database(mongoDBURL);
+const { Database } = require("quickmongo");
+const dotenv = require("dotenv")
+dotenv.config()
+const quickmongo = new Database(process.env.MONGODBURL);
 const muteSchema = require('../../models/muted');
 
 

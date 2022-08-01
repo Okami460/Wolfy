@@ -1,6 +1,7 @@
 const { Database } = require("quickmongo");
-const mongoDBURL = require("../../botConfig/config.json").mongoDBURl;
-const quickmongo = new Database(mongoDBURL);
+const dotenv = require("dotenv")
+dotenv.config()
+const quickmongo = new Database(process.env.MONGODBURL);
 const { Message, Client } = require("discord.js");
 
 module.exports = {

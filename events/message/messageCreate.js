@@ -5,9 +5,10 @@ const afk = require("../../models/afk")
 const badwords = require("../../botConfig/assets/badwords.json").badwords
 const moment = require("moment")
 const mongoose = require("mongoose")
-const mongoDBURL = require("../../botConfig/config.json").mongoDBURl
-const { Database } = require("quickmongo")
-const quickmongo = new Database(mongoDBURL)
+const { Database } = require("quickmongo");
+const dotenv = require("dotenv")
+dotenv.config()
+const quickmongo = new Database(process.env.MONGODBURL);
 const Levels = require("discord-xp")
 Levels.setURL(mongoDBURL)
 const db = require("quick.db")
