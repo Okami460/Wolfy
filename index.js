@@ -7,6 +7,9 @@ const config = require("./botConfig/config.json")
 const fs = require("fs")
 const { GiveawaysManager } = require("discord-giveaways")
 
+const dotenv = require("dotenv")
+dotenv.config()
+
 
 
 /* Import de mongoose*/
@@ -329,4 +332,4 @@ client.on("messageCreate", async (message) => {
 
 
 
-client.login(config.token)
+client.login(process.env.TOKEN)

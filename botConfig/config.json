@@ -1,5 +1,4 @@
 {
-  "token": "OTQxMzUzMDUyMTE0MzkxMDgz.Gwv9Ji.J9CfIX_t-sJWk2rwl8FS38iGTQLbOLPPNBNY-A",
   "prefix": "w!",
   "mongoDBURl": "mongodb://Okami:Nathdel45@wolfy-shard-00-00.xtym0.mongodb.net:27017,wolfy-shard-00-01.xtym0.mongodb.net:27017,wolfy-shard-00-02.xtym0.mongodb.net:27017/WolfyV13?replicaSet=atlas-ckpnnh-shard-0&ssl=true&authSource=admin",
   "spotify_api": {

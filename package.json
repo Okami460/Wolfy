@@ -35,6 +35,7 @@
     "discord.js-pagination": "^1.0.3",
     "discord.js-temporary-channel": "^3.0.0",
     "distube": "^3.0.3",
+    "dotenv": "^16.0.1",
     "enmap": "^5.9.0",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.4.0",
