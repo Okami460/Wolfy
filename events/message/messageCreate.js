@@ -10,7 +10,7 @@ const dotenv = require("dotenv")
 dotenv.config()
 const quickmongo = new Database(process.env.MONGODBURL);
 const Levels = require("discord-xp")
-Levels.setURL(mongoDBURL)
+Levels.setURL(process.env.MONGODBURL)
 const db = require("quick.db")
 const  translate  = require("@vitalets/google-translate-api")
 const fetch = require("node-fetch")
