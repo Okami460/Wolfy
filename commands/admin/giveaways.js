@@ -1,5 +1,5 @@
 const { Client, Message, MessageEmbed } = require('discord.js');
-const config = require("../../Botconfig/config.json")
+const config = require("../../botConfig/config.json")
 const ms = require("ms");
 
 module.exports = {
