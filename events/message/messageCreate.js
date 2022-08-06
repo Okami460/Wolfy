@@ -25,6 +25,8 @@ client.on("messageCreate", async message => {
     if (!message.guild) return
 
 
+
+
     /* système de levels */
     if (await quickmongo.fetch(`levels-${message.guild.id}`) === true) {
         const randomAmoutXP = Math.floor(Math.random() * 29) + 1 // Min: 1 Max: 30
@@ -342,6 +344,4 @@ client.on("messageCreate", message => {
         })
     }
 })
-
-
 

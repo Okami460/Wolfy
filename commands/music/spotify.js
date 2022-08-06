@@ -32,6 +32,8 @@ const {
           ["PLAYING", "WATCHING", "LISTENING"].includes(s.type)
         ) || false;
   
+      
+      console.log(user.presence.activities)
       const isSpotify = activity.name == "Spotify" ? true : false;
   
       if (!isSpotify) return message.channel.send("La personne n'écoute pas spotify!");

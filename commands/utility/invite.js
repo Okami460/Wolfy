@@ -6,7 +6,7 @@ module.exports = {
         category: "utilities",
         description: "Invite le bot sur votre serveur",
         permissions: ["SEND_MESSAGES"],
-    run: async (client, message, args) => {
+        run: async (client, message, args) => {
 
         const embed = new MessageEmbed()
         .setColor("GREEN")
@@ -19,7 +19,7 @@ module.exports = {
             .addComponents(
                 new MessageButton()
                     .setLabel("Invite")
-                    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=0&scope=bot`)
+                    .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`)
                     .setEmoji("🔗")
                     .setStyle("LINK")
             )

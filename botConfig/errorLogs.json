@@ -1,129 +1,8 @@
 [
   {
     "date": {
-      "__parsed": 1659313947262,
-      "raw": "2022-08-01T00:32:27.262Z"
-    },
-    "message": "Discord.MessageEmbed.setImage is not a constructor",
-    "name": "TypeError",
-    "description": false,
-    "origin": false,
-    "stack": [
-      {
-        "at": "TypeError: Discord.MessageEmbed.setImage is not a constructor",
-        "__rawTarget": "TypeError: Discord.MessageEmbed.setImage is not a constructor",
-        "target": "TypeError: Discord.MessageEmbed.setImage is not a constructor",
-        "line": 0,
-        "column": 0,
-        "__raw__": "TypeError: Discord.MessageEmbed.setImage is not a constructor"
-      },
-      {
-        "at": "Object.run",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\image\\threats.js:15:23)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\image\\threats.js:15:23",
-        "line": "15",
-        "column": 0,
-        "__raw__": "    at Object.run (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\image\\threats.js:15:23)"
-      },
-      {
-        "at": "runMicrotasks",
-        "__rawTarget": "(<anonymous>)",
-        "target": "<anonymous>",
-        "line": 0,
-        "column": 0,
-        "__raw__": "    at runMicrotasks (<anonymous>)"
-      }
-    ]
-  },
-  {
-    "date": {
-      "__parsed": 1659315943476,
-      "raw": "2022-08-01T01:05:43.476Z"
-    },
-    "message": "MessageEmbed field values must be non-empty strings.",
-    "code": "EMBED_FIELD_VALUE",
-    "name": "RangeError [EMBED_FIELD_VALUE]",
-    "description": false,
-    "origin": false,
-    "stack": [
-      {
-        "at": "RangeError [EMBED_FIELD_VALUE]: MessageEmbed field values must be non-empty strings.",
-        "__rawTarget": "RangeError [EMBED_FIELD_VALUE]: MessageEmbed field values must be non-empty strings.",
-        "target": "RangeError [EMBED_FIELD_VALUE]: MessageEmbed field values must be non-empty strings.",
-        "line": 0,
-        "column": 0,
-        "__raw__": "RangeError [EMBED_FIELD_VALUE]: MessageEmbed field values must be non-empty strings."
-      },
-      {
-        "at": "Function.verifyString",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:427:41)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:427:41",
-        "line": "427",
-        "column": 0,
-        "__raw__": "    at Function.verifyString (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:427:41)"
-      },
-      {
-        "at": "Function.normalizeField",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:544:19)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:544:19",
-        "line": "544",
-        "column": 0,
-        "__raw__": "    at Function.normalizeField (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:544:19)"
-      },
-      {
-        "at": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:565:14",
-        "__rawTarget": "",
-        "target": false,
-        "line": 0,
-        "column": 0,
-        "__raw__": "    at C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:565:14"
-      },
-      {
-        "at": "Array.map",
-        "__rawTarget": "(<anonymous>)",
-        "target": "<anonymous>",
-        "line": 0,
-        "column": 0,
-        "__raw__": "    at Array.map (<anonymous>)"
-      },
-      {
-        "at": "Function.normalizeFields",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:564:8)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:564:8",
-        "line": "564",
-        "column": 0,
-        "__raw__": "    at Function.normalizeFields (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:564:8)"
-      },
-      {
-        "at": "MessageEmbed.addFields",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:328:42)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:328:42",
-        "line": "328",
-        "column": 0,
-        "__raw__": "    at MessageEmbed.addFields (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:328:42)"
-      },
-      {
-        "at": "MessageEmbed.addField",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:319:17)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:319:17",
-        "line": "319",
-        "column": 0,
-        "__raw__": "    at MessageEmbed.addField (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:319:17)"
-      },
-      {
-        "at": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\recherche\\appstore.js:41:14",
-        "__rawTarget": "",
-        "target": false,
-        "line": 0,
-        "column": 0,
-        "__raw__": "    at C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\recherche\\appstore.js:41:14"
-      }
-    ]
-  },
-  {
-    "date": {
-      "__parsed": 1659315972450,
-      "raw": "2022-08-01T01:06:12.450Z"
+      "__parsed": 1659393639634,
+      "raw": "2022-08-01T22:40:39.634Z"
     },
     "message": "Cannot read properties of undefined (reading 'permissions')",
     "name": "TypeError",
@@ -140,18 +19,26 @@
       },
       {
         "at": "Client.<anonymous>",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17",
-        "line": "164",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17",
+        "line": "165",
         "column": 0,
-        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17)"
+        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)"
+      },
+      {
+        "at": "runMicrotasks",
+        "__rawTarget": "(<anonymous>)",
+        "target": "<anonymous>",
+        "line": 0,
+        "column": 0,
+        "__raw__": "    at runMicrotasks (<anonymous>)"
       }
     ]
   },
   {
     "date": {
-      "__parsed": 1659316252258,
-      "raw": "2022-08-01T01:10:52.258Z"
+      "__parsed": 1659439818290,
+      "raw": "2022-08-02T11:30:18.290Z"
     },
     "message": "Cannot read properties of undefined (reading 'permissions')",
     "name": "TypeError",
@@ -168,11 +55,11 @@
       },
       {
         "at": "Client.<anonymous>",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17",
-        "line": "164",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17",
+        "line": "165",
         "column": 0,
-        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\events\\message\\messageCreate.js:164:17)"
+        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)"
       },
       {
         "at": "runMicrotasks",
@@ -186,46 +73,29 @@
   },
   {
     "date": {
-      "__parsed": 1659316294475,
-      "raw": "2022-08-01T01:11:34.475Z"
+      "__parsed": 1659439823158,
+      "raw": "2022-08-02T11:30:23.158Z"
     },
-    "message": "Unable to convert color to a number.",
-    "code": "COLOR_CONVERT",
-    "name": "TypeError [COLOR_CONVERT]",
+    "message": "Cannot read properties of undefined (reading 'permissions')",
+    "name": "TypeError",
     "description": false,
     "origin": false,
     "stack": [
       {
-        "at": "TypeError [COLOR_CONVERT]: Unable to convert color to a number.",
-        "__rawTarget": "TypeError [COLOR_CONVERT]: Unable to convert color to a number.",
-        "target": "TypeError [COLOR_CONVERT]: Unable to convert color to a number.",
+        "at": "TypeError: Cannot read properties of undefined (reading 'permissions')",
+        "__rawTarget": "TypeError: Cannot read properties of undefined (reading 'permissions')",
+        "target": "TypeError: Cannot read properties of undefined (reading 'permissions')",
         "line": 0,
         "column": 0,
-        "__raw__": "TypeError [COLOR_CONVERT]: Unable to convert color to a number."
+        "__raw__": "TypeError: Cannot read properties of undefined (reading 'permissions')"
       },
       {
-        "at": "Function.resolveColor",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:455:41)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:455:41",
-        "line": "455",
+        "at": "Client.<anonymous>",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17",
+        "line": "165",
         "column": 0,
-        "__raw__": "    at Function.resolveColor (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\util\\Util.js:455:41)"
-      },
-      {
-        "at": "MessageEmbed.setColor",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:402:23)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:402:23",
-        "line": "402",
-        "column": 0,
-        "__raw__": "    at MessageEmbed.setColor (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\node_modules\\discord.js\\src\\structures\\MessageEmbed.js:402:23)"
-      },
-      {
-        "at": "Object.run",
-        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\recherche\\wallpaper.js:38:8)",
-        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\recherche\\wallpaper.js:38:8",
-        "line": "38",
-        "column": 0,
-        "__raw__": "    at Object.run (C:\\Users\\Natha\\OneDrive\\Bureau\\perso\\prog\\WolfyV13\\commands\\recherche\\wallpaper.js:38:8)"
+        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:165:17)"
       },
       {
         "at": "runMicrotasks",
@@ -234,6 +104,286 @@
         "line": 0,
         "column": 0,
         "__raw__": "    at runMicrotasks (<anonymous>)"
+      }
+    ]
+  },
+  {
+    "date": {
+      "__parsed": 1659446085506,
+      "raw": "2022-08-02T13:14:45.506Z"
+    },
+    "message": "role is not defined",
+    "name": "ReferenceError",
+    "description": false,
+    "origin": false,
+    "stack": [
+      {
+        "at": "ReferenceError: role is not defined",
+        "__rawTarget": "ReferenceError: role is not defined",
+        "target": "ReferenceError: role is not defined",
+        "line": 0,
+        "column": 0,
+        "__raw__": "ReferenceError: role is not defined"
+      },
+      {
+        "at": "Client.<anonymous>",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40",
+        "line": "34",
+        "column": 0,
+        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40)"
+      },
+      {
+        "at": "Client.emit",
+        "__rawTarget": "(node:events:539:35)",
+        "target": "node:events:539:35",
+        "line": "539",
+        "column": 0,
+        "__raw__": "    at Client.emit (node:events:539:35)"
+      },
+      {
+        "at": "MessageCreateAction.handle",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14",
+        "line": "26",
+        "column": 0,
+        "__raw__": "    at MessageCreateAction.handle (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14)"
+      },
+      {
+        "at": "Object.module.exports [as MESSAGE_CREATE]",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32",
+        "line": "4",
+        "column": 0,
+        "__raw__": "    at Object.module.exports [as MESSAGE_CREATE] (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32)"
+      },
+      {
+        "at": "WebSocketManager.handlePacket",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31",
+        "line": "346",
+        "column": 0,
+        "__raw__": "    at WebSocketManager.handlePacket (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31)"
+      },
+      {
+        "at": "WebSocketShard.onPacket",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22",
+        "line": "482",
+        "column": 0,
+        "__raw__": "    at WebSocketShard.onPacket (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22)"
+      },
+      {
+        "at": "WebSocketShard.onMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10",
+        "line": "317",
+        "column": 0,
+        "__raw__": "    at WebSocketShard.onMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10)"
+      },
+      {
+        "at": "WebSocket.onMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18",
+        "line": "199",
+        "column": 0,
+        "__raw__": "    at WebSocket.onMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18)"
+      },
+      {
+        "at": "WebSocket.emit",
+        "__rawTarget": "(node:events:527:28)",
+        "target": "node:events:527:28",
+        "line": "527",
+        "column": 0,
+        "__raw__": "    at WebSocket.emit (node:events:527:28)"
+      },
+      {
+        "at": "Receiver.receiverOnMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20",
+        "line": "1178",
+        "column": 0,
+        "__raw__": "    at Receiver.receiverOnMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20)"
+      },
+      {
+        "at": "Receiver.emit",
+        "__rawTarget": "(node:events:527:28)",
+        "target": "node:events:527:28",
+        "line": "527",
+        "column": 0,
+        "__raw__": "    at Receiver.emit (node:events:527:28)"
+      },
+      {
+        "at": "Receiver.dataMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14",
+        "line": "528",
+        "column": 0,
+        "__raw__": "    at Receiver.dataMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14)"
+      },
+      {
+        "at": "Receiver.getData",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17",
+        "line": "446",
+        "column": 0,
+        "__raw__": "    at Receiver.getData (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17)"
+      },
+      {
+        "at": "Receiver.startLoop",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22",
+        "line": "148",
+        "column": 0,
+        "__raw__": "    at Receiver.startLoop (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22)"
+      },
+      {
+        "at": "Receiver._write",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10",
+        "line": "83",
+        "column": 0,
+        "__raw__": "    at Receiver._write (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10)"
+      }
+    ]
+  },
+  {
+    "date": {
+      "__parsed": 1659446107365,
+      "raw": "2022-08-02T13:15:07.365Z"
+    },
+    "message": "role is not defined",
+    "name": "ReferenceError",
+    "description": false,
+    "origin": false,
+    "stack": [
+      {
+        "at": "ReferenceError: role is not defined",
+        "__rawTarget": "ReferenceError: role is not defined",
+        "target": "ReferenceError: role is not defined",
+        "line": 0,
+        "column": 0,
+        "__raw__": "ReferenceError: role is not defined"
+      },
+      {
+        "at": "Client.<anonymous>",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40",
+        "line": "34",
+        "column": 0,
+        "__raw__": "    at Client.<anonymous> (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\events\\message\\messageCreate.js:34:40)"
+      },
+      {
+        "at": "Client.emit",
+        "__rawTarget": "(node:events:539:35)",
+        "target": "node:events:539:35",
+        "line": "539",
+        "column": 0,
+        "__raw__": "    at Client.emit (node:events:539:35)"
+      },
+      {
+        "at": "MessageCreateAction.handle",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14",
+        "line": "26",
+        "column": 0,
+        "__raw__": "    at MessageCreateAction.handle (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\actions\\MessageCreate.js:26:14)"
+      },
+      {
+        "at": "Object.module.exports [as MESSAGE_CREATE]",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32",
+        "line": "4",
+        "column": 0,
+        "__raw__": "    at Object.module.exports [as MESSAGE_CREATE] (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\handlers\\MESSAGE_CREATE.js:4:32)"
+      },
+      {
+        "at": "WebSocketManager.handlePacket",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31",
+        "line": "346",
+        "column": 0,
+        "__raw__": "    at WebSocketManager.handlePacket (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:346:31)"
+      },
+      {
+        "at": "WebSocketShard.onPacket",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22",
+        "line": "482",
+        "column": 0,
+        "__raw__": "    at WebSocketShard.onPacket (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:482:22)"
+      },
+      {
+        "at": "WebSocketShard.onMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10",
+        "line": "317",
+        "column": 0,
+        "__raw__": "    at WebSocketShard.onMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\discord.js\\src\\client\\websocket\\WebSocketShard.js:317:10)"
+      },
+      {
+        "at": "WebSocket.onMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18",
+        "line": "199",
+        "column": 0,
+        "__raw__": "    at WebSocket.onMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\event-target.js:199:18)"
+      },
+      {
+        "at": "WebSocket.emit",
+        "__rawTarget": "(node:events:527:28)",
+        "target": "node:events:527:28",
+        "line": "527",
+        "column": 0,
+        "__raw__": "    at WebSocket.emit (node:events:527:28)"
+      },
+      {
+        "at": "Receiver.receiverOnMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20",
+        "line": "1178",
+        "column": 0,
+        "__raw__": "    at Receiver.receiverOnMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\websocket.js:1178:20)"
+      },
+      {
+        "at": "Receiver.emit",
+        "__rawTarget": "(node:events:527:28)",
+        "target": "node:events:527:28",
+        "line": "527",
+        "column": 0,
+        "__raw__": "    at Receiver.emit (node:events:527:28)"
+      },
+      {
+        "at": "Receiver.dataMessage",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14",
+        "line": "528",
+        "column": 0,
+        "__raw__": "    at Receiver.dataMessage (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:528:14)"
+      },
+      {
+        "at": "Receiver.getData",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17",
+        "line": "446",
+        "column": 0,
+        "__raw__": "    at Receiver.getData (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:446:17)"
+      },
+      {
+        "at": "Receiver.startLoop",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22",
+        "line": "148",
+        "column": 0,
+        "__raw__": "    at Receiver.startLoop (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:148:22)"
+      },
+      {
+        "at": "Receiver._write",
+        "__rawTarget": "(C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10)",
+        "target": "C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10",
+        "line": "83",
+        "column": 0,
+        "__raw__": "    at Receiver._write (C:\\Users\\Natha\\OneDrive\\Bureau\\WolfyV13\\node_modules\\ws\\lib\\receiver.js:83:10)"
       }
     ]
   }
