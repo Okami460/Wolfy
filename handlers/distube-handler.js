@@ -61,6 +61,11 @@ module.exports = (client) => {
         },
         plugins: [
             new SpotifyPlugin({
+                api: {
+                    clientId: process.env.CLIENTID,
+                    clientSecret: process.env.CLIENTSECRET,
+                    
+                },
                 emitEventsAfterFetching: true
             }),
         ]
