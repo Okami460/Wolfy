@@ -183,7 +183,7 @@ module.exports = (client) => {
                     x.deferUpdate()
 
                     const { channel } = x.message.member.voice
-                    if (channel === message.guild.me.voice.channel.id) {
+                    if (channel === x.message.guild.me.voice.channel.id) {
                         switch (x.customId) {
 
                             case "vp":
