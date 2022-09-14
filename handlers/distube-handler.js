@@ -183,7 +183,7 @@ module.exports = (client) => {
                     x.deferUpdate()
 
                     const {channel} = x.message.member.voice
-                    if (channel.id !== x.message.guild.me.voice.channel.id) return
+                    if (client.distube.getQueue(message) && channel.id !== x.message.guild.me.voice.channel.id) return
                     switch (x.customId) {
 
                         case "vp":
