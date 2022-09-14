@@ -179,7 +179,6 @@ module.exports = (client) => {
 
 
                 collector.on("collect", async (x) => {
-                    console.log(x)
                     x.deferUpdate()
                     switch (x.customId) {
 
@@ -263,6 +262,7 @@ module.exports = (client) => {
                             break;
 
                         case "stop":
+                            console.log(x.user.id)
                             client.distube.stop(x.message)
                             break;
                         case "skip":
