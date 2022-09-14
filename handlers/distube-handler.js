@@ -179,6 +179,7 @@ module.exports = (client) => {
 
 
                 collector.on("collect", async (x) => {
+                    console.log(x)
                     x.deferUpdate()
                     switch (x.customId) {
 
