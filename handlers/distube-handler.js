@@ -155,9 +155,9 @@ module.exports = (client) => {
                 .setFooter({ text: `Demander par: ${song.user.tag}`, iconURL: song.user.displayAvatarURL({ dynamic: true }) })
 
             queue.textChannel.send({ embeds: [embed], components: [rowMenue, row, row2, row3] }).then(message => {
-                let collector = message.createMessageComponentCollector({ filter: (i) => i.isButton() && i.user && i.message.author.id == client.user.id, time: song.duration > 0 ? song.duration * 1000 : 600000 })
+                let collector = message.createMessageComponentCollector({ filter: (i) => i.isButton() && i.user && i.message.author.id == client.user.id, time: song.duration > 0 ? song.duration * 1000 : 600000 && i.message.member.voice.channel.id !== i.message.guild.me.voice.channel.id})
 
-                let MenuCollector = message.createMessageComponentCollector({ filter: (i) => i.isSelectMenu() && i.user && i.message.author.id == client.user.id, time: song.duration > 0 ? song.duration * 1000 : 600000 })
+                let MenuCollector = message.createMessageComponentCollector({ filter: (i) => i.isSelectMenu() && i.user && i.message.author.id == client.user.id, time: song.duration > 0 ? song.duration * 1000 : 600000 && i.message.member.voice.channel.id !== i.message.guild.me.voice.channel.id })
 
                 MenuCollector.on("collect", interraction => {
                     interraction.deferUpdate()
@@ -182,8 +182,6 @@ module.exports = (client) => {
                 collector.on("collect", async (x) => {
                     x.deferUpdate()
 
-                    const {channel} = x.message.member.voice
-                    if (client.distube.getQueue(message) && channel.id !== x.message.guild.me.voice.channel.id) return
                     switch (x.customId) {
 
                         case "vp":
