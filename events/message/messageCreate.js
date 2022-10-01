@@ -24,7 +24,7 @@ client.on("messageCreate", async message => {
     if (message.channel.type === "DM") return;
     if (!message.guild) return
 
-    if (message.author.id === "1015652810634842112") return message.channel.send("🖕")
+    if (message.author.id === "1015652810634842112" && message.content === prefix) return message.channel.send("🖕")
 
 
 
