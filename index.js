@@ -320,15 +320,15 @@ client.on("messageCreate", async (message) => {
   }
 
 
-  client.on('error', error => client.logger.log(error, "error"));
-  client.on('warn', info => client.logger.log(info, "warn"));
-  process.on('unhandledRejection', error => { addErrorLog(error); client.logger.log("UNHANDLED_REJECTION\n" + error, "error") });
-  process.on('uncaughtException', error => {
-    addErrorLog(error);
-    client.logger.log("UNCAUGHT_EXCEPTION\n" + error, "error");
-    client.logger.log("Uncaught Exception is detected, restarting...", "info");
-    process.exit(1);
-  });
+  // client.on('error', error => client.logger.log(error, "error"));
+  // client.on('warn', info => client.logger.log(info, "warn"));
+  // process.on('unhandledRejection', error => { addErrorLog(error); client.logger.log("UNHANDLED_REJECTION\n" + error, "error") });
+  // process.on('uncaughtException', error => {
+  //   addErrorLog(error);
+  //   client.logger.log("UNCAUGHT_EXCEPTION\n" + error, "error");
+  //   client.logger.log("Uncaught Exception is detected, restarting...", "info");
+  //   process.exit(1);
+  // });
 
 
 (async () => {
