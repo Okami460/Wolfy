@@ -331,9 +331,9 @@ process.on('uncaughtException', error => {
 });
 
 
-(async () => {
 
-  async function adkami() {
+
+  const adkami = async() => {
 
 
 
@@ -378,11 +378,10 @@ process.on('uncaughtException', error => {
         } else return
 
       } catch (error) {
-        console.log(error)
       }
 
 
-    }).catch(err => console.log(err))
+    }).catch(err => {})
 
 
   }
@@ -391,7 +390,7 @@ process.on('uncaughtException', error => {
     adkami()
   }, 5000)
 
-})()
+
 
 
 
