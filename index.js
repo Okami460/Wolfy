@@ -337,7 +337,7 @@ function addErrorLog(err) {
 
   setInterval(async () => {
     
-    
+    try {
       let info = await axios.get("https://m.adkami.com/api/main?objet=news&bot=an-hactys")
     
     
@@ -365,7 +365,7 @@ function addErrorLog(err) {
       const anime = require("./botConfig/anime.json")
     
     
-      try {
+
         if (!anime.anime_name.includes(`${epname} ${epinfo}`)) {
           anime.anime_name.push(`${epname} ${epinfo}`)
     
