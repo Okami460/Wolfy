@@ -26,7 +26,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setTitle("Règle")
             .setColor("GREEN")
-            .setDescription("Je t'explique les règles du jeu : \n  |- Tu as 25 secondes par question pour répondre\n  |- Tu as 3 essais\n  |- Tu n'as pas besoin de t'embêter avec les majuscules, tu peux tout écrire en minuscule, pas de problème\n  |- Tu peux passer à la question suivante avec skip\n |- Si tu réussi bien, tu auras des rôles récompenses !\nBonne chance !!")
+            .setDescription("Je t'explique les règles du jeu : \n  |- Tu as 25 secondes par question pour répondre\n  |- Tu as 3 essais\n  |- Tu n'as pas besoin de t'embêter avec les majuscules, tu peux tout écrire en minuscule, pas de problème\n  |- Tu peux passer à la question suivante avec skip\n Bonne chance !!")
 
         await message.channel.send({
             embeds: [embed]
