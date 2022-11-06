@@ -337,7 +337,12 @@ async function adkami() {
 
 
 
-  let info = await axios.get("https://m.adkami.com/api/main?objet=news&bot=an-hactys")
+  let info = await axios.get("https://m.adkami.com/api/main?objet=news&bot=an-hactys",{
+    headers: {
+      Accept: "application/json",
+      "User-Agent": "axios 0.21.1"
+    }
+  })
 
 
   let urlimage = info.data["episodes"][0]["image"]
