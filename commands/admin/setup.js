@@ -40,6 +40,8 @@ module.exports = {
             .addField("🤬 Anticurse", "Section: **anticurse-enable/disable**", true)
             .addField("🚀 Levels", "Section: **levels**", true)
             .addField("🌠 Salon Levels", "Section: **levelsChannel**", true)
+            .addField("📥 Anime Notifs", "Section: **animeNotifs**", true)
+            .addField("📥 Salon NotifsAnime", "Section: **animeNotifsChannel**", true)
 
         if (!choice) return message.channel.send({ embeds: [noChoiceEmbed] })
         if (!message.member.permissions.has('ADMINISTRATOR')) return message.channel.send('Vous n\'avais pas les permissions "Gérer les messages"')
@@ -120,6 +122,26 @@ module.exports = {
         if (levelsChannelCheck) {
             levelsChannelStatus = `<#${getLevelsChannel}>`
         } else levelsChannelStatus = "`Pas de salon définit`"
+
+
+
+                /* Vérifie le statut du système de levels */
+                const animeCheck = await quickmongo.fetch(`animeNotifs-${message.guild.id}`)
+                let animeStatus;
+        
+                if (animeCheck === true) {
+                    animeStatus = "`🟢 (ON)`"
+                } else animeStatus = "`🔴 (OFF)`"
+        
+        
+                /* Vérifie le status du salon levels */
+                const getAnimeChannel = await quickmongo.get(`animeNotifsChannel-${message.guild.id}`)
+                const getAnimeChannelCheck = await quickmongo.fetch(`animeNotifsChannel-${message.guild.id}`)
+                let AnimeChannelStatus;
+        
+                if (getAnimeChannelCheck) {
+                    getAnimeChannelStatus = `<#${getAnimeChannel}>`
+                } else AnimeChannelStatus = "`Pas de salon définit`"
 
 
 
@@ -221,6 +243,38 @@ module.exports = {
             }
         }
 
+        if (choice === "animeNotifs") {
+            const query = args[1];
+
+            if (!query) return message.channel.send("Veuillez choisir entre **enable** et **disable**")
+
+
+            if (query === 'enable') {
+                if (await quickmongo.fetch(`animeNotifs-${message.guild.id}`) === null) {
+                    await quickmongo.set(`animeNotifs-${message.guild.id}`, true);
+                    return message.channel.send("Les Notifs Adkami a bien été activé !")
+                } else if (await quickmongo.fetch(`animeNotifs-${message.guild.id}`) === false) {
+                    await quickmongo.set(`levels-${message.guild.id}`, true);
+                    return message.channel.send("Les Notifs Adkami a bien été activé !")
+                } else return message.channel.send("Les Notifs Adkami est **déjà activé**")
+            }
+
+            if (query === 'disable') {
+                if (await quickmongo.fetch(`animeNotifs-${message.guild.id}`) === true) {
+                    await quickmongo.delete(`animeNotifs-${message.guild.id}`);
+                    return message.channel.send("Les Notifs Adkami a bien été désactivé")
+                } else return message.channel.send("Les Notifs Adkami est **déjà désactivé**")
+            }
+        }
+
+
+        if (choice === "animeNotifsChannel") {
+            const animeChannel = message.mentions.channels.first() || message.guild.channels.cache.get(args[0])
+            if (!animeChannel) return message.channel.send("Veuillez mentionner un salon valide")
+
+            await quickmongo.set(`animeNotifsChannel-${message.guild.id}`, animeChannel.id)
+            message.channel.send(`Le salon levels a bien été configuré sur le salon ${animeChannel}`)
+        }
 
         if (choice === "levelsChannel") {
             const levelsChannel = message.mentions.channels.first() || message.guild.channels.cache.get(args[0])
@@ -265,6 +319,8 @@ module.exports = {
                 .addField("🤬 Anticurse", `\`${anticurseStatus}\``, true)
                 .addField("🚀 Levels", `${levelStatus}`, true)
                 .addField("🌠 Salon Levels", `${levelsChannelStatus}`, true)
+                .addField("📥 Anime Notifs", `${animeStatus}`, true)
+                .addField("📥 Salon NotifsAnime", `${AnimeChannelStatus}`, true)
 
             message.channel.send({ embeds: [configEmbed] })
         }
