@@ -1,8 +1,10 @@
 async function adkami(client, axios, discord, fs) {
 
     let info = await axios.get("https://m.adkami.com/api/main?objet=news&bot=an-hactys", {
-        "User-Agent": ""
-    })
+        headers: {
+          "User-Agent": "axios 0.21.1"
+        }
+    }).catch(err => console.log(err))
 
 
 
