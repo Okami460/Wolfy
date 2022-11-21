@@ -6,7 +6,7 @@ async function adkami(client, axios, discord, fs) {
         }
     }).catch(err => console.log(err))
 
-    console.log(info.data)
+    console.log(info)
 
 
 
