@@ -1,9 +1,6 @@
 async function adkami(client, axios, discord, fs) {
 
     await axios.get("https://m.adkami.com/api/main?objet=news&bot=an-hactys").then(async info => {
-
-      console.log(info)
-  
   
   
   
