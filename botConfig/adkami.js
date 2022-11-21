@@ -8,18 +8,18 @@ async function adkami(client, axios, discord, fs) {
 
 
 
-        let urlimage = info.data["episodes"][0]["image"]
-        let urlserie = info.data["episodes"][0]["url"]
+        let urlimage = info["episodes"][0]["image"]
+        let urlserie = info["episodes"][0]["url"]
         urlserie = "https://" + urlserie.slice(15, -1)
-        let epname = info.data["episodes"][0]["title"]
-        let epinfo = info.data["episodes"][0]["info"]
+        let epname = info["episodes"][0]["title"]
+        let epinfo = info["episodes"][0]["info"]
   
   
   
         const embed = new discord.MessageEmbed()
           .setTitle(`${epname}`)
           .setDescription(`${epinfo}\n${urlserie}`)
-          .setAuthor({ name: "team: " + info.data["episodes"][0]["team"], iconURL: "https://m.adkami.com/favicon2.png" })
+          .setAuthor({ name: "team: " + info["episodes"][0]["team"], iconURL: "https://m.adkami.com/favicon2.png" })
           .setImage(urlimage)
           .setURL(urlserie)
           .setFooter({ text: "ADKami" })
